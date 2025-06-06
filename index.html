@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TalkMind - 대화 심리 분석기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TalkMind</h1>
+    <p>상대방과의 대화를 붙여넣으면 AI가 심리를 분석해줍니다.</p>
+    <textarea id="conversation" placeholder="여기에 대화를 복사해 붙여넣으세요..." rows="12"></textarea>
+    <button id="analyzeBtn">분석하기</button>
+    <div id="loading" class="hidden">분석 중입니다...</div>
+    <div id="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
